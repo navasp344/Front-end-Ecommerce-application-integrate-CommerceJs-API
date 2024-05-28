@@ -1,0 +1,14 @@
+.products_main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+    gap: 1rem;
+}
+.product_price{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.card-img-top:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
