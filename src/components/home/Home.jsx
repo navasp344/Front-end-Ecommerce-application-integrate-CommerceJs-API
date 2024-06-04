@@ -12,7 +12,6 @@ const Home = () => {
     <Offer/>
     <Category/>
     <ProductList/>
-    <Footer/>
     </>
 
 

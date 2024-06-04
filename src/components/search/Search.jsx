@@ -22,7 +22,7 @@ const Search = ({ products }) => {
     };
   
     return (
-      <div className="container-fluid text-center mt-5">
+      <div className="container-fluid text-center mt-5 py-5">
         <input
           type="text"
           placeholder='Search...'

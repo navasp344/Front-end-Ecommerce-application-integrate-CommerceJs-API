@@ -1,0 +1,10 @@
+.about-main{
+    background-image: url("https://cdn.prod.website-files.com/614b3e8cafbd9789234c277e/62dea429b7a57ee4e95d34f3_Facebook%20ads%20for%20eCommerce.png");
+    /* object-fit: cover; */
+    position: relative;
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+.about-us{
+    height: 100vh;
+}

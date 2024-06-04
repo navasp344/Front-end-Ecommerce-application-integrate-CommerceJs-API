@@ -1,15 +1,70 @@
-import React from 'react'
+import React from "react";
+import '../../styles/Contactus.css'
+
 
 function ContactPage() {
   return (
-    <div className='container mt-5 '>
-        <h3>Contact Us</h3>
-      <p>If you have any questions, feedback, or concerns, please don't hesitate to reach out to us. We're here to help!</p>
-      <p>Email: info@yourcompany.com</p>
-      <p>Phone: 123-456-7890</p>
-      <p>Address: 123 Main Street, City, State, Zip Code</p>
-    </div>
-  )
+    <section className="contact" id="contact">
+          <div className="container">
+              <div className="heading text-center">
+                  <h2>Contact
+                      <span> Us </span></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      <br/>incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div className="row">
+                  <div className="col-md-5">
+                      <div className="title">
+                          <h3>Contact detail</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                      </div>
+                      <div className="content">
+                          <div className="info">
+                              <i className="fas fa-mobile-alt"></i>
+                              <h4 className="d-inline-block">PHONE :
+                                  <br/>
+                                  <span>+12457836913 , +12457836913</span></h4>
+                          </div>
+                          <div className="info">
+                              <i className="far fa-envelope"></i>
+                              <h4 className="d-inline-block">EMAIL :
+                                  <br/>
+                                  <span>example@info.com</span></h4>
+                          </div>
+                          <div className="info">
+                              <i className="fas fa-map-marker-alt"></i>
+                              <h4 className="d-inline-block">ADDRESS :<br/>
+                                  <span>6743 last street , Abcd, Xyz</span></h4>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="col-md-7">
+
+                      <form>
+                          <div className="row">
+                              <div className="col-sm-6">
+                                  <input type="text" className="form-control" placeholder="Name"/>
+                              </div>
+                              <div className="col-sm-6">
+                                  <input type="email" className="form-control" placeholder="Email"/>
+                              </div>
+                              <div className="col-sm-12">
+                                  <input type="text" className="form-control" placeholder="Subject"/>
+                              </div>
+                          </div>
+                          <div className="form-group">
+                              <textarea className="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                          </div>
+                          <button className="btn btn-block" type="submit">Send Now!</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section> 
+    
+    
+  );
 }
 
-export default ContactPage
+export default ContactPage;
